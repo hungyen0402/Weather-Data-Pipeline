@@ -1,0 +1,37 @@
+version: '3.9'  # (Có thể xóa để tránh cảnh báo, nhưng tạm thời giữ để thử nghiệm)
+services:
+  db:
+    image: postgres:15
+    container_name: weather_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: duchung
+      POSTGRES_PASSWORD: duchung2004@@
+      POSTGRES_DB: weather
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+    depends_on:
+      - db
+    command: streamlit run scripts/dashboard.py --server.port 8501 --server.address 0.0.0.0
+  pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - WEATHER_API_KEY=${WEATHER_API_KEY}
+    depends_on:
+      - db
+    command: python scripts/weather_scheduler.py
+volumes:
+  db_data:

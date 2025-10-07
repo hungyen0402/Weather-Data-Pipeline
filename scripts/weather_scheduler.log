@@ -1,0 +1,28 @@
+2025-10-06 16:47:27,270 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-06 16:47:27,273 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-06 16:47:27,312 - INFO - Added job "get_all_weather_data" to job store "default"
+2025-10-06 16:47:27,312 - INFO - Scheduler started
+2025-10-06 16:47:27,312 - INFO - Running job "get_all_weather_data (trigger: date[2025-10-06 16:47:27 +07], next run at: 2025-10-06 16:47:27 +07)" (scheduled at 2025-10-06 16:47:27.273279+07:00)
+2025-10-06 16:47:27,313 - INFO - Removed job initial_fetch
+2025-10-06 16:47:36,620 - INFO - Job "get_all_weather_data (trigger: date[2025-10-06 16:47:27 +07], next run at: 2025-10-06 16:47:27 +07)" executed successfully
+2025-10-06 17:38:08,086 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-06 17:38:08,087 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-06 17:38:08,104 - INFO - Added job "get_all_weather_data" to job store "default"
+2025-10-06 17:38:08,104 - INFO - Scheduler started
+2025-10-06 17:38:08,105 - INFO - Running job "get_all_weather_data (trigger: date[2025-10-06 17:38:08 +07], next run at: 2025-10-06 17:38:08 +07)" (scheduled at 2025-10-06 17:38:08.087177+07:00)
+2025-10-06 17:38:08,105 - INFO - Removed job initial_fetch
+2025-10-06 17:38:19,564 - INFO - Job "get_all_weather_data (trigger: date[2025-10-06 17:38:08 +07], next run at: 2025-10-06 17:38:08 +07)" executed successfully
+2025-10-07 11:00:20,051 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-07 11:00:20,065 - INFO - Scheduler started
+2025-10-07 21:52:43,394 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-07 21:52:43,401 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-07 21:52:43,570 - INFO - Scheduler started
+2025-10-07 21:52:43,574 - INFO - Removed job intial
+2025-10-07 22:04:24,839 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-07 22:04:24,840 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-07 22:04:24,869 - INFO - Scheduler started
+2025-10-07 22:04:24,871 - INFO - Removed job intial
+2025-10-07 22:06:45,467 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-07 22:06:45,468 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-07 22:06:45,494 - INFO - Scheduler started
+2025-10-07 22:06:45,498 - INFO - Removed job intial
