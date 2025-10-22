@@ -10,11 +10,11 @@ import plotly.express as px
 # Load biến môi trường
 # ==========================
 load_dotenv()
-print(os.getenv("DATABASE_URL_DASHBOARD"))
+print(os.getenv("DATABASE_URL_RAILWAY"))
 
 # Tạo engine kết nối database
 try:
-    engine = create_engine(os.getenv("DATABASE_URL_DASHBOARD"))
+    engine = create_engine(os.getenv("DATABASE_URL_RAILWAY"))
 except Exception as e:
     st.error(f"Error connecting to database: {e}")
 
