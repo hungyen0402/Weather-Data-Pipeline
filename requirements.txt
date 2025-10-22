@@ -4,5 +4,10 @@ psycopg2-binary
 pandas
 SQLAlchemy
 streamlit
-APScheduler
-plotly 
+APScheduler 
+matplotlib
+seaborn
+plotly
+wordcloud
+scikit-learn
+folium
