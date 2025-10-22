@@ -32,13 +32,13 @@ def start_scheduler():
         get_all_weather_data,
         trigger=IntervalTrigger(seconds=120),
         id='main',
-        name='Thu thập dữ liệu thời tiết mỗi 2 tiếng',
+        name='Thu thập dữ liệu thời tiết mỗi 2 phút',
         replace_existing=True
     )
 
     try:
         logger.info("Bắt đầu scheduler...")
-        logger.info("Scheduler sẽ chạy mỗi 120 phút")
+        logger.info("Scheduler sẽ chạy mỗi 120 giây")
         logger.info("Nhấn Ctrl+C để dừng")
         scheduler.start()
     except KeyboardInterrupt:
