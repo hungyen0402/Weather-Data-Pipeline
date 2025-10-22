@@ -94,11 +94,6 @@ else:
     # Thay thế ảnh chụp màn hình cục bộ bằng ảnh bạn đã tải lên (image_297441.png)
     # **Lưu ý**: Bạn cần thêm ảnh này vào repository (ví dụ: trong thư mục `images/`) 
     # và đổi đường dẫn ở dưới nếu cần.
-    try:
-        # Giả sử bạn tạo thư mục 'images' và lưu ảnh vào đó
-        st.image("image_297441.png", caption="Ảnh chụp hệ thống Dashboard đã deploy", width=800)
-    except Exception as e:
-        st.warning(f"Không tìm thấy file ảnh 'image_297441.png'. Lỗi: {e}")
 
     st.header("Đọc dữ liệu từ Database (Chỉ Hà Nội & Hải Phòng)")
     
