@@ -11,3 +11,4 @@ plotly
 wordcloud
 scikit-learn
 folium
+statsmodels

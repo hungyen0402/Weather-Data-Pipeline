@@ -91,11 +91,6 @@ else:
 
     # --- Phần 1: Deploy và Preprocessing (Giới thiệu) ---
     st.title("Phần 1: Chuẩn hóa và Xử lý dữ liệu")
-    st.markdown("""
-    Hệ thống crawl data được triển khai bằng Streamlit, Postgresql và deploy trên Railway.
-    Link github HTTPS: [https://github.com/hungyen0402/Weather-Data-Pipeline.git](https://github.com/hungyen0402/Weather-Data-Pipeline.git) 
-    """)
-
     # Thay thế ảnh chụp màn hình cục bộ bằng ảnh bạn đã tải lên (image_297441.png)
     # **Lưu ý**: Bạn cần thêm ảnh này vào repository (ví dụ: trong thư mục `images/`) 
     # và đổi đường dẫn ở dưới nếu cần.
